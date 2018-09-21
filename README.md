@@ -19,4 +19,4 @@ then to run the Angular base EmailExtractor application.
 cd EmailExtractor
 npm install
 ng serve```
-Test the Application at: http://localhost:4200"# TestDataUploader" 
+Test the Application at: http://localhost:4200
