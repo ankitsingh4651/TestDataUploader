@@ -17,22 +17,22 @@ import { Ng2SmartTableModule, LocalDataSource } from 'ng2-smart-table';
 
 export class ImportComponent {
 
-     private static xFileList: FileList;
-     public xDataList: any[];
-     public xImportForm: FormGroup;
-     private xImportFile:FileList;
-     public xShowSpinner:any = false;
-     public xShowTable:any = false;
-     private xData:any;
-     private xEvent:any;
-     private source: LocalDataSource;
-     private xUserForm: FormGroup;
-     private xRecordCount: any;
-     private xStartPage: any;
-     private xEndPage: any;
-     private xRecord: any;
-     private xFilteredRecord: any;
-     private xNonFilteredRecord: any ;
+      static xFileList: FileList;
+      xDataList: any[];
+      xImportForm: FormGroup;
+      xImportFile:FileList;
+      xShowSpinner:any = false;
+      xShowTable:any = false;
+      xData:any;
+      xEvent:any;
+      source: LocalDataSource;
+      xUserForm: FormGroup;
+      xRecordCount: any;
+      xStartPage: any;
+      xEndPage: any;
+      xRecord: any;
+      xFilteredRecord: any;
+      xNonFilteredRecord: any ;
      @ViewChild('createModal') xCreateModal;
      //---------------------------------------------------------------------------------------------
      //---------------------------------------------------------------------------------------------
