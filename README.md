@@ -1,7 +1,7 @@
-EmailExtractor App
+TestDataUploader
 =====================
 
-**A sample EmailExtractor app where user can fetch all email addresses from csv or excel file.
+**A sample TestDataUploader where user can fetch all data from csv file.
 
 ## Requirements
 * Git
@@ -13,10 +13,10 @@ EmailExtractor App
 To run the Angular app follow the given steps
 
 ```bash
-git clone https://github.com/virendrak4651/EmailExtractor.git```
-then to run the Angular base EmailExtractor application.
+git clone https://github.com/ankitsingh4651/TestDataUploader.git```
+then to run the Angular base TestDataUploader application.
 ```bash
-cd EmailExtractor
+cd TestDataUploader
 npm install
 ng serve```
 Test the Application at: http://localhost:4200
